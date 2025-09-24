@@ -1,5 +1,5 @@
 import { Table, Column, Model, DataType, BelongsToMany } from "sequelize-typescript";
-import { Permission } from "./premission";
+import { Permission } from "./permission";
 import { RolePermission } from "./role-premission";
 import { User } from "./user";
 

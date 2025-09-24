@@ -1,5 +1,5 @@
 import { Role } from "../../models/role";
-import { Permission } from "../../models/premission";
+import { Permission } from "../../models/permission";
 
 export class RoleService {
   static async createRole(name: string) {

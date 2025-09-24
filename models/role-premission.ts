@@ -1,6 +1,6 @@
 import { Table, Column, Model, ForeignKey, DataType } from "sequelize-typescript";
 import { Role } from "./role";
-import { Permission } from "./premission";
+import { Permission } from "./permission";
 
 @Table({ tableName: "role_permissions", timestamps: false })
 export class RolePermission extends Model<RolePermission> {

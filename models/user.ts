@@ -9,7 +9,7 @@ import {
 } from "sequelize-typescript";
 import bcrypt from "bcrypt";
 import { Role } from "./role";
-import { Permission } from "./premission";
+import { Permission } from "./permission";
 import { UserPermission } from "./user-premission";
 
 @Table({ tableName: "users", timestamps: true })

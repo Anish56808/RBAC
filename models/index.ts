@@ -3,7 +3,7 @@ import { Sequelize } from "sequelize-typescript";
 // Import all models
 import { User } from "./user";
 import { Role } from "./role";
-import { Permission } from "./premission";
+import { Permission } from "./permission";
 import { Post } from "./post.model";
 import { RolePermission } from "./role-premission";
 import { UserPermission } from "./user-premission";

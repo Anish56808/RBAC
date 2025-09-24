@@ -1,4 +1,4 @@
-import { Permission } from "../../models/premission";
+import { Permission } from "../../models/permission";
 
 export class PermissionService {
   static async createPermission(key: string, description?: string) {
